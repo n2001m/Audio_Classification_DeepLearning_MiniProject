@@ -4,7 +4,7 @@ import librosa
 import tensorflow as tf
 
 # Load the trained model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('Deployment/model.h5')
 
 # Define the label mapping
 label_mapping = {0: 'others', 1: 'siren', 2: 'traffic'}
